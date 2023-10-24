@@ -8,7 +8,7 @@ function Age() {
     let Vage = curYear - 2006
 
     return(
-        <p> Im {Vage} Years Old</p>
+        <p> Im {Vage} Years old</p>
     );
 
 }
