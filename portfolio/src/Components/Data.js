@@ -20,7 +20,7 @@ function SList() {
     const skillsData = [
         {
             name: 'Python',
-            level: 15,
+            level: 19,
             color: 'yellow',
             duration: dur,
         },
@@ -38,7 +38,7 @@ function SList() {
         },
         {
             name: 'Power Shell',
-            level: 18,
+            level: 14,
             color: 'lightblue',
             duration: dur,
         },
@@ -56,7 +56,7 @@ function SList() {
         },
         {
             name: 'Git',
-            level: 10,
+            level: 14,
             color: 'orange',
             duration: dur,
         },

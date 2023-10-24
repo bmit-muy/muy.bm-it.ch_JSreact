@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   background-color: #504742;
 }
@@ -7,15 +11,9 @@
   pointer-events: none;
 }
 
-/*@media (prefers-reduced-motion: no-preference) {
-.App-logo {
-
-  }
-}*/
-
 .App-header {
   background-color: #AC3435;
-  min-height: 120px;
+  min-height: 100px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -26,14 +24,29 @@
 }
 
 .nav {
-  color: #808080;
-  list-style: none;
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
+  background-color: #AC3435;
 }
 
 .nav a {
-  color: inherit;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  border-radius: 9px;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 .nav ul {
@@ -41,16 +54,7 @@
   justify-content: center;
 }
 
-.nav ul li {
-  display: inline;
-  background-color: #010120;
-  padding: 12px;
-  border-width: 7px;
-  border-style: solid;
-  border-color: #010120;
-  border-radius: 9px;
 
-}
 
 
 .App-body {
@@ -105,4 +109,3 @@
   color: white;
   text-align: center;
 }
-
