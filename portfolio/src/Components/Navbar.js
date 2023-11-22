@@ -1,4 +1,4 @@
-const Navabar = () => {
+const Navbar = () => {
     return ( 
 	<nav className="App-nav">
 			<ul className="App-nav-pos">
@@ -10,4 +10,4 @@ const Navabar = () => {
     </nav> );
 }
 
-export default Navabar;
+export default Navbar;
