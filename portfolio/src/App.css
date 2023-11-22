@@ -1,111 +1,131 @@
-html{
-  scroll-behavior: smooth;
-}
 
-.App {
-  background-color: #504742;
-}
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Victor+Mono:wght@100&display=swap');
+
+body {background-color: #525353;}
+
+
 
 .App-header {
-  background-color: #AC3435;
-  min-height: 100px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  background-color: #28502E;
+  height: 6rem;
+  align-content: center;
+  align-items: left;
+  text-align: center;
+  display: flex;
+  position: sticky;
+  flex-shrink: 0;
   font-size: calc(10px + 2vmin);
   color: white;
-  position: sticky;
-  top: 0;
-}
-
-.nav {
-  overflow: hidden;
-  background-color: #AC3435;
-}
-
-.nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-style: italic;
-}
-
-.nav a:hover {
-  background-color: #ddd;
-  border-radius: 9px;
-  color: black;
-}
-
-.nav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-.nav ul {
-  list-style: none;
-  justify-content: center;
-}
-
-
-
-
-.App-body {
-  min-height: 100%;
 }
 
 .App-footer {
-  background-color: #AC3435;
-  min-height: 120px;
-  display: grid;
-  text-align: left;
-  color: #fdfdfdfa;
-  font-style: oblique;
-  padding: 20px;
-  grid-template-columns: 20% 60% 20%;
-}
-
-.App-link {
-  color: #61dafb;
+  background-color: #28502E;
 }
 
 
-.App-icon {
-  width: 40px;
-  height: 40px;
-  padding-left: 45px;
-}
-
-.App-massage {
-  text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: normal;
-  color: #ffffff;
-  padding-top: 20px;
-  padding-left: 30%;
-  padding-right: 30%;
-}
-
-
-
-.PortImg{
+.App-button  {
+  background-color: #FFF;
+  color: #000;
   justify-content: center;
-  text-align: center;
-  color: white;
+  border-radius: 6.5rem;
+  stroke-width: 1rem;
+  stroke: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(2px); 
+  width: 10rem;
+  height: 4rem;
+  padding: 0.5rem 1rem ;
+  flex-shrink: 0; 
+  display: inline;
+} 
+
+.App-link{
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  color: #000;
 }
 
-.SkillTabel{
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
+
+.App-nav-pos {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+  padding-right:10px ;
+  position: sticky;
+}
+.App-nav {
+  margin-top: 30px;
+  position: sticky;
+}
+.App-button:hover  {
+  background-color: rgb(79, 180, 119);
+  color: #000;
+  justify-content: center;
+  border-radius: 6.5rem;
+  stroke-width: 1rem;
+  stroke: #000;
+  filter: saturate();
+  backdrop-filter: blur(2px); 
+  width: 10rem;
+  height: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-shrink: 0; 
+  display: inline;
+} 
+
+
+.App-title-font{
+  color: #FFF;
   text-align: center;
+  font-family: Roboto Mono;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.App-quotes-title{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.App-quote{
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Mono;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.App-button-quote{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.App-button-quote:hover{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+
 }
